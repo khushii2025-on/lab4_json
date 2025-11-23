@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Strawberry",
+    "calories": 150,
+    "type": "fruit",
+    "image": "strawberry.svg"
+  },
+  {
+    "name": "Chocolate Blast",
+    "calories": 300,
+    "type": "dessert",
+    "image": "chocolate.svg"
+  }
+]
