@@ -13,6 +13,13 @@ fetch("./data/flavours.json")
       } else {
         health = "High calorie";
       }
+      card.innerHTML = `
+        <h2>${item.name}</h2>
+        <img src="images/${item.image}" alt="${item.name}">
+        <p>Type: ${item.type}</p>
+        <p>Calories: ${item.calories}</p>
+        <p><strong>${health}</strong></p>
+      `;
       container.appendChild(card);
     });
     })
