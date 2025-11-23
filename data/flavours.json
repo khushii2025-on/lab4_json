@@ -10,5 +10,17 @@
     "calories": 300,
     "type": "dessert",
     "image": "chocolate.svg"
+  },
+  {
+    "name": "Galaxy Grape",
+    "calories": 120,
+    "type": "fruit",
+    "image": "galaxy.svg"
+  },
+  {
+    "name": "Dragon Mango",
+    "calories": 200,
+    "type": "tropical",
+    "image": "dragon.svg"
   }
 ]
