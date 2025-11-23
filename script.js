@@ -5,6 +5,14 @@ fetch("./data/flavours.json")
     data.forEach(item => {
       const card = document.createElement("div");
       card.classList.add("card");
+      let health;
+      if (item.calories < 150) {
+        health = "Low calorie";
+      } else if (item.calories < 250) {
+        health = "Medium calorie";
+      } else {
+        health = "High calorie";
+      }
       container.appendChild(card);
     });
     })
